@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+ 
+}
+.judul{
+  text-align: center;
+  background-color: #c26717;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #7b0909;
+  padding-top: 20px;
+}
+.bawah{
+  margin: auto;
+  justify-content: center;
+  font-size: 35px;
+  background-color: #c26717;
+  margin: 20px 0;
+}
+.bawah span{
+  margin: 0 15px;
+  border-radius: 50%;
+  padding: 10px;
+  width: 70px;
+  background-color: #ffffff;
+}
+.sosmed{
+  text-align: center;
+}
+.sosmed i{
+  font-size: 30px;
+  padding: 0 20px;
+}
+.sosmed a{
+  color: black;
+}
+.sosmed a:hover{
+  color: black;
+}
+.about{
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  border: 1px solid black;
+  background-color: #cecece;
+}
+.about span{
+  font-family: Monospace;
+}
+.jarak{
+  height: 50px;
+}
+.keahlian{
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 1vh;
+  border: 1px solid black;
+  margin-top: 5vh;
+  background-color: #cecece;
+}
+.kotak1{
+ background: linear-gradient(to right, orange, #ec38bc, #7303c0, cyan);  
+  font-size: 50px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: auto;
+  color: white;
+}
+.kotakan{
+  display: flex
+}
+p i{
+  color: #fb5252;
+}
+.navbar-brand{
+  text-align: center;
+}
+.skills{
+  margin-top: 20px;
+  font-family: Monospace;
+}
+.hiburan{
+  width: 100%;
+  left: 0;
+  background-color: #cecece;
+  text-align: center;
+  margin-top: 5vh;
+  border: 1px solid black;
+  padding: 20px 0;
+}
+.hiburan button{
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+}

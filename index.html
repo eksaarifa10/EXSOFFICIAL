@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Exsofficial</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+<nav class="navbar navbar-dark bg-danger fixed-top">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">EKSADEV</span>
+  </div>
+</nav>
+    <!-- akhir navbar -->
+    <!-- Judul -->
+    <div class="jarak">
+      
+    </div>
+    <div class="judul">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">HELLO I'AM</h1>
+    <div class="bawah">
+      <span style="color:#f66363">E</span>
+      <span style="color:#f5c374">K</span>
+      <span style="color:#f65363">S</span>
+      <span style="color:#f5c374">A</span>
+    </div>
+  </div>
+</div>
+    </div>
+    <!-- akhir judul -->
+    <!-- Social media -->
+    <div class="sosmed">
+      <span>MY SOCIAL MEDIA</span><br />
+      <a href="https://github.com/eksaarifa"><i class="bi-github" role="img" aria-label="GitHub"></i></a>
+      <a href="https://www.instagram.com/p/CPCcPRWjSwI/?utm_medium=copy_link"><i class="bi bi-instagram"></i></a>
+    </div>
+    <!-- Akhir sosial media -->
+    <!-- About -->
+    <div class="about">
+      <h2>ABOUT</h2>
+      <span>THIS WEBSITE IS DONE SPECIFICALLY FOR ANDROID SO FOR FRIENDS WHO OPEN ON DESKTOP, PLEASE MINIMIZE THE VIEW OF EACH BROWSER, TO BE CONVENIENT TO VIEW.
+       </span>
+    </div>
+    <!-- Akhir About -->
+    <!-- KEAHLIAN -->
+    <div class="keahlian">
+      <h2>MY SKILL</h2><br />
+      <div class="kotakan">
+      <div class="kotak1">
+        <i class="bi bi-code-slash"></i>
+      </div>
+     <div class="kotak1">
+        <i class="bi bi-controller"></i>
+      </div>
+      </div>
+    </div>
+    <!-- Akhir keahlian -->
+    <!-- Keahlian coding -->
+    <div class="keahlian">
+      <div class="kotakan">
+        <div class="kotak1">
+          <i class="bi bi-code-slash"></i>
+        </div>
+      </div>
+      <div class="skills">
+        <p>Skills: html, css, javascript(still learning),php(little),python(little),C++(very little)</p>
+      </div>
+    </div>
+    <!-- akhir keahlian coding -->
+    <!-- Keahlian game -->
+    <div class="keahlian">
+      <div class="kotakan">
+        <div class="kotak1">
+          <i class="bi bi-controller"></i>
+        </div>
+      </div>
+      <div class="skills">
+        <p>Ordinary player of freefire game</p>
+      </div>
+    </div>
+    <!-- akhir keahlian game -->
+    <!-- hiburan bagi pengunjung -->
+    <div class="hiburan">
+      <h2>RANDOM WORDS</h2><br />
+      <button id="btn">TRY</button>
+    </div>
+    <!-- akhir HBP -->
+    <p style="text-align:center;font-size:10px;margin-top:20px;">© EksaDev(2021-2022)</p>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script>
+      const btn = document.getElementById('btn')
+      
+      var random = Math.floor(Math.random()* 10 + 1);
+      
+      console.log(random);
+      
+      var kondisi = "";
+      if(random < 3){
+        kondisi = "Kamu akan menjadi orang sukses";
+      }else if(random >= 3 && random <= 6){
+        kondisi = "Kamu sedang membaca ini dalam hati";
+      }else{
+        kondisi = "Kamu sedang duduk saat ini";
+      }
+      
+      btn.addEventListener('click', function(){
+        alert(kondisi);
+      })
+    </script>
+  </body>
+</html>
