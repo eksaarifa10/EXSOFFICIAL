@@ -10,7 +10,7 @@ body{
   background-color: #c26717;
   padding-bottom: 10px;
   border-bottom: 2px solid #7b0909;
-  padding-top: 20px;
+  padding-top: 60px;
 }
 .bawah{
   margin: auto;
@@ -50,7 +50,7 @@ body{
   font-family: Monospace;
 }
 .jarak{
-  height: 50px;
+  
 }
 .keahlian{
   text-align: center;
